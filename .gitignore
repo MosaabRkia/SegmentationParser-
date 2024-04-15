@@ -1,0 +1,7 @@
+dataset/output.rar
+architecture/__pycache__/segnet.cpython-311.pyc
+codes/__pycache__/__init__.cpython-311.pyc
+codes/__pycache__/data.cpython-311.pyc
+codes/__pycache__/helpers.cpython-311.pyc
+codes/__pycache__/metrics.cpython-311.pyc
+codes/__pycache__/scheduler.cpython-311.pyc
