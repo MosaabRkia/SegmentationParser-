@@ -9,3 +9,6 @@ dataset/upper/clear dataset 17611.rar
 dataset/
 models/
 logs/
+input/
+mask/
+output/
