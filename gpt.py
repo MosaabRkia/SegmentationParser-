@@ -1,4 +1,5 @@
 import torch
+torch.autograd.set_detect_anomaly(True)
 print(torch.version.cuda)
 
 import torch.nn as nn
@@ -20,7 +21,7 @@ epochs = 30  # Number of epochs
 learning_rate = 0.0001  # Learning rate
 checkpoint_dir = "checkpoints"  # Directory to save checkpoints
 sizeToTrainOn = (192, 256)  # Resize images to this size
-OneGpu = False  # Set to True to force using only GPU 0
+OneGpu = True  # Set to True to force using only GPU 0
 
 # Create logs directory if it doesn't exist
 log_dir = "logs"
